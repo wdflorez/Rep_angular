@@ -1,9 +1,16 @@
+//consola modo administrador
+
 npm install -g typescript
 tsc --version
 
 
 npm install -g @angular/cli
 ng -v     // a mi me funciono asi ng v
+
+
+npm install -g ionic
+
+EN VIDEO EXPLICAN LA INSTALACION DE LOS PLUGINS O SNIPPETS DE LOS EDITORES VISUAL STUDIO CODE Y ATOM
 
 
 

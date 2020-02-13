@@ -1,0 +1,33 @@
+---------la primera vez
+
+
+ README.md
+git init
+git add README.md
+git commit -m "first commit "
+git remote add origin https://github.com/wdflorez/pruebaX.git
+git push -u origin master
+
+
+
+----- para actualizar
+
+git init
+git add .
+git commit -m "comentario de actualizacion pruebas de git1"
+git push -u origin master
+
+
+
+-----  para clonar
+
+git clone https://github.com/wdflorez/pruebaX.git
+
+// si es un proyecto  se debe cargar las dependencias as "npm install"
+
+------- subir los cambios despues de clonar
+git init
+git add .
+git commit -m "first commit clonado "
+git remote add origin https://github.com/wdflorez/Rep_angular.git
+git push -u origin master

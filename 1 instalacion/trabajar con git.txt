@@ -1,4 +1,4 @@
----------la primera vez
+---------la primera vez subir la carpeta original
 
 
  README.md
@@ -10,9 +10,9 @@ git push -u origin master
 
 
 
------ para actualizar
+----- para actualizar en el remote
 
-git init
+
 git add .
 git commit -m "comentario de actualizacion pruebas de git1"
 git push -u origin master
@@ -21,13 +21,32 @@ git push -u origin master
 
 -----  para clonar
 
-git clone https://github.com/wdflorez/pruebaX.git
+git clone https://github.com/wdflorez/Rep_angular.git
 
 // si es un proyecto  se debe cargar las dependencias as "npm install"
 
-------- subir los cambios despues de clonar
-git init
-git add .
-git commit -m "first commit clonado "
-git remote add origin https://github.com/wdflorez/Rep_angular.git
+
+
+------- subir los cambios despues de clonar al remoto
+
+ git add .
+git commit -m "comentario de actualizacion pruebas de git1"
 git push -u origin master
+
+
+
+
+-- bajar los cambios cuando hay commit nuevo en el remote
+git fetch
+git add .
+git commit -m "prueba bajar cambios despues de en un proyecto clonado "
+                  //si hay conflicto   git commit -a
+
+git fetch
+git pull
+
+
+
+-----  conflicto..
+
+

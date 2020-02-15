@@ -1,7 +1,6 @@
 ---------la primera vez subir la carpeta original
 
-
- README.md
+README.md
 git init
 git add README.md
 git commit -m "first commit "
@@ -20,8 +19,10 @@ git push -u origin master
 
 
 -----  para clonar
-
+git init
 git clone https://github.com/wdflorez/Rep_angular.git
+
+git remote add origin https://github.com/wdflorez/Rep_angular.git
 
 // si es un proyecto  se debe cargar las dependencias as "npm install"
 
@@ -29,12 +30,18 @@ git clone https://github.com/wdflorez/Rep_angular.git
 
 ------- subir los cambios despues de clonar al remoto
 
-NO PUDE
-
+git add .
+git commit -m "otra prueba de actualizacion"
+git push -f origin master
 
 
 
 -- bajar los cambios cuando hay commit nuevo en el remote
+git pull origin master
+
+
+
+
 
 
 NO PUDE
@@ -43,3 +50,4 @@ NO PUDE
 -----  conflicto..
 NO PUDE
 
+git fetch origin master

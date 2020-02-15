@@ -6,6 +6,15 @@ tsc --version
 
 npm install -g @angular/cli
 ng -v     // a mi me funciono asi ng v
+## si te sale este error debes actualizar node.j
+## Node.js version v8.11.2 detected.
+## The Angular CLI requires a minimum Node.js version of either v10.13 or v12.0.
+node -v
+Actualizar npm utilizando el siguiente comando:
+
+npm install npm -g // servidores linux
+en Windows bajar el isntalador actualizado
+
 
 
 npm install -g ionic
@@ -19,6 +28,7 @@ https://github.com/wdflorez/Rep_angular.git
 prueba con miguel
 
 prueba otro pc
+
 
 
 

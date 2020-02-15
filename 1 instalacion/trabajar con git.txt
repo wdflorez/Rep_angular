@@ -14,7 +14,7 @@ git push -u origin master
 
 
 git add .
-git commit -m "comentario de actualizacion pruebas de git1"
+git commit -m "otra prueba de actualizacion"
 git push -u origin master
 
 
@@ -29,24 +29,17 @@ git clone https://github.com/wdflorez/Rep_angular.git
 
 ------- subir los cambios despues de clonar al remoto
 
- git add .
-git commit -m "comentario de actualizacion pruebas de git1"
-git push -u origin master
+NO PUDE
 
 
 
 
 -- bajar los cambios cuando hay commit nuevo en el remote
-git fetch
-git add .
-git commit -m "prueba bajar cambios despues de en un proyecto clonado "
-                  //si hay conflicto   git commit -a
 
-git fetch
-git pull
 
+NO PUDE
 
 
 -----  conflicto..
-
+NO PUDE
 

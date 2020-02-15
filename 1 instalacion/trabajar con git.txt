@@ -22,6 +22,9 @@ git push -u origin master
 git init
 git clone https://github.com/wdflorez/Rep_angular.git
 
+----   entrar a la carpeta  
+cd Rep_angular
+
 git remote add origin https://github.com/wdflorez/Rep_angular.git
 
 // si es un proyecto  se debe cargar las dependencias as "npm install"
@@ -32,22 +35,13 @@ git remote add origin https://github.com/wdflorez/Rep_angular.git
 
 git add .
 git commit -m "otra prueba de actualizacion"
-git push -f origin master
+git push -u origin master
 
 
 
 -- bajar los cambios cuando hay commit nuevo en el remote
-git pull origin master
-
-
-
-
-
-
-NO PUDE
+git pull
 
 
 -----  conflicto..
 NO PUDE
-
-git fetch origin master
